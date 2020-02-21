@@ -12,7 +12,7 @@ package main
 import "github.com/aiseeq/counter"
 
 func main() {
-	// Init queues and makes map
+	// Init queues and make map
 	c := counter.New()
 	// Increment key in order of queue
 	c.Inc("test_key")
